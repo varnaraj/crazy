@@ -3,7 +3,7 @@ import phonenumbers
 from test import number 
 #print(number)
 
-#Find country
+#Find country from mobile num
 from phonenumbers import geocoder
 ch_number=phonenumbers.parse(number,"CH")
 #print(ch_number)
