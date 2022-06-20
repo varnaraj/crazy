@@ -1,2 +1,2 @@
 # crazy
-Find the country and service provider of an phone number
+1) Find the country and service provider of an phone number
