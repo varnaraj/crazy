@@ -9,3 +9,7 @@ Outputs caption tracks to .srt format (SubRip Subtitle)
 Ability to capture thumbnail URL.
 Extensively documented source code
 No third-party dependencies
+
+we have to convert link to youtube link using YouTube("link")
+my_video1.streams.get_lowest_resolution() 
+for play list

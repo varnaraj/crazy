@@ -30,4 +30,4 @@ for video in playlist.video_urls:
     print(video)
     my_video1=YouTube(video)
     my_video1=my_video1.streams.get_lowest_resolution()
-    #my_video1.download()
+    #my_video1.download() #uncomment for download
