@@ -4,9 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>todo</title>
+    <style>
+        #container{
+            width: 33vw;
+            margin: 4rem auto;
+            
+        }
+        input[type="text"]{
+            height: 50px;
+            font-size: 20px;
+            width:100%;
+            text-align: center;
+
+        }
+        li{
+            list-style: none;
+            font-size: 30px;
+        }
+        input[type="checkbox"]{
+            zoom: 2;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="container">
+        <input type="text"  placeholder="Enter your to do">
+        <ul id="todoList">
+            <li>
+                <input id="1" type="checkbox">
+                <label for="1">Wakeup</label>
+               
+            </li>
+            <li>
+                <input id="2" type="checkbox">
+                <label for="2">brush</label>
+               
+            </li>
+            <li>
+                <input id="3" type="checkbox">
+                <label for="3">bathe</label>
+               
+            </li>
+        </ul>
+    </div>
+    <script src="index.js">
+
+    </script>
 </body>
 </html>
