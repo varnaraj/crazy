@@ -25,27 +25,18 @@
         input[type="checkbox"]{
             zoom: 2;
         }
+        .completed{
+            text-decoration: line-through;
+            color:greenyellow;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
     <div id="container">
-        <input type="text"  placeholder="Enter your to do">
+        <input id="addTodo" type="text"  placeholder="Enter your to do">
         <ul id="todoList">
-            <li>
-                <input id="1" type="checkbox">
-                <label for="1">Wakeup</label>
-               
-            </li>
-            <li>
-                <input id="2" type="checkbox">
-                <label for="2">brush</label>
-               
-            </li>
-            <li>
-                <input id="3" type="checkbox">
-                <label for="3">bathe</label>
-               
-            </li>
+            
         </ul>
     </div>
     <script src="index.js">
